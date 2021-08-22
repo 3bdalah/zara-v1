@@ -10,7 +10,8 @@ const ProductInfo = ({singleProduct,add_to_cart}) => {
 let {title,price,img,description , avalb_cnt}= singleProduct;
        console.log('single Product : ',singleProduct);
        return (
-       <>
+       <> 
+       
        <Title title="Product Info "/>
        <section className="product-info">
               <div className="container">
