@@ -1,0 +1,17 @@
+/*************** Styled About *****/
+.about {
+    background-color: #fdfdfd;
+}
+
+.about .title-content {
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.about strong {
+    font-weight: 500;
+}
+
+.about p {
+    text-align: left;
+}

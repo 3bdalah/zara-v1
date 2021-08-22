@@ -1,0 +1,13 @@
+/************* style Footer *********/
+.Footer {
+    margin-top: 50px;
+}
+.foot {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--mainBlack);
+    text-align: center;
+    color: var(--mainWhite);
+    text-transform: capitalize;
+}
