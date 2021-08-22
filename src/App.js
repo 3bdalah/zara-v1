@@ -15,12 +15,12 @@ import Footer from "./components/Footer/Footer";
 import {Switch,Route} from "react-router-dom"
 
 // Pages 
-import Home from "./pages/Home";
-import Products from "./pages/products";
-import ProductInfo from "./pages/ProductInfo";
+import Home from "./pages/Home/Home";
+import Products from "./pages/Products/products";
+import ProductInfo from "./pages/SingleProduct/ProductInfo";
 import Cart from "./pages/Cart/Cart";
 import About from "./pages/About/About";
-import Contact from "./pages/Contact";
+import Contact from "./pages/ContactUs/Contact";
 //import Actions
 import {setSingle_Product} from "./reducers/Action"
 // import { PureComponent } from 'react';

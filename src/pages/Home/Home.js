@@ -1,14 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import Services from "../components/Services/Services";
+import Services from "../../components/Services/Services";  
 
-
-
-import Subscribe from "../components/Subscribe/Subscribe";
-import InstallApp from "../components/InstallApp/InstallApp";
-import Featured from "../components/Featured/Featured";
-
+import Subscribe from "../../components/Subscribe/Subscribe";
+import InstallApp from "../../components/InstallApp/InstallApp";
+import Featured from "../../components/Featured/Featured";
+import "./Home.css"
 export default function Home() {
     return (
         <>

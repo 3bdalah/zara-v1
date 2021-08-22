@@ -1,10 +1,11 @@
 import React from 'react'
 // import Actions 
-import {setSingle_Product} from "../reducers/Action";
+import {setSingle_Product} from "../../reducers/Action";
 import {Link} from "react-router-dom";
 import {connect} from "react-redux"  
-import {add_to_cart} from "../Actions/Actions";
-import Title from "../components/Title/Title";
+import {add_to_cart} from "../../Actions/Actions";
+import Title from "../../components/Title/Title";
+import "./ProductInfo.css"
 const ProductInfo = ({singleProduct,add_to_cart}) => {
 let {title,price,img,description , avalb_cnt}= singleProduct;
        console.log('single Product : ',singleProduct);

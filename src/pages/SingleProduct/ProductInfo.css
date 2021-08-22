@@ -1,0 +1,66 @@
+/*************************Start Product INfo  ********/
+.product-info {
+    padding: 70px 0px;
+}
+
+.product-info .cover-img {
+    margin: auto;
+}
+
+.product-info .cover-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-info .data-product strong {
+    font-weight: 600;
+}
+
+.product-info .data-product .info {
+    margin-top: 20px;
+    display: block;
+    font-size: 15px;
+}
+
+.product-info .data-product .title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.product-info .data-product p {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+}
+
+.product-info .data-product span {
+    font-weight: 400;
+}
+
+.product-info .data-product .btn-add {
+    text-align: center !important;
+    float: left;
+    margin: 50px 10px;
+    border: none;
+    background-color: var(--mainBlack);
+    width: 35%;
+    height: 50%;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .product-info .data-product {
+        margin-top: 50px;
+    }
+
+    .product-info .data-product .btn-add {
+        width: 100%;
+        margin: 10px auto;
+        font-weight: 400;
+    }
+}
+

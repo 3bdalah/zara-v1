@@ -1,5 +1,7 @@
 import React from 'react';
-import Title from "../components/Title/Title";
+import Title from "../../components/Title/Title";
+
+import "./Contact.css"
 const Contact = () => {   
    
     return (

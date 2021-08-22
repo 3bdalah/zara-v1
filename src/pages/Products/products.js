@@ -1,10 +1,10 @@
 import React from 'react'
-import {setSingle_Product} from "../reducers/Action";
-import {get_count_item} from "../Actions/Actions";
+import {setSingle_Product} from "../../reducers/Action";
+import {get_count_item} from "../../Actions/Actions";
 // import { PureComponent } from 'react';
 import {connect} from "react-redux"  
-import Title from "../components/Title/Title";
-import Product from "../components/Product/Product";
+import Title from "../../components/Title/Title";
+import Product from "../../components/Product/Product";
 const Products =({storeProducts,get_count_item}) => {
     React.useEffect(()=>{
         get_count_item();
